@@ -1,0 +1,50 @@
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .panel {
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .panel-top {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .panel-bottom {
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider {
+    height: 8px;
+    cursor: row-resize;
+    background-color: #ccc;
+  }.panel-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .panel {
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .panel-top {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .panel-bottom {
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider {
+    height: 8px;
+    cursor: row-resize;
+    background-color: #ccc;
+  }
+  

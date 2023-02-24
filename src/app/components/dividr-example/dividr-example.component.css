@@ -1,0 +1,31 @@
+.panel-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .panel {
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .seperator {
+    cursor: ew-resize;
+    background-color: #3455f7;
+    width: 5px;
+  }
+
+
+  .panel-top {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .panel-bottom {
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider {
+    height: 5px;
+    cursor: ns-resize;
+    background-color: #3455f7;
+}

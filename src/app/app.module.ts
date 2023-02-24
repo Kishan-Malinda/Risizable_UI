@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DividrExampleComponent } from './components/dividr-example/dividr-example.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DividrExampleComponent
   ],
   imports: [
     BrowserModule,

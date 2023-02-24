@@ -1,0 +1,44 @@
+<div class="panel-container">
+    <div class="panel" [style.width.px]="leftPanelWidth" #leftPanel>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas modi harum 
+            officia. Quisquam officiis iste architecto porro asperiores nemo dolorem debitis 
+            mollitia, earum numquam aperiam libero blanditiis beatae repellendus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a!
+        </p>
+    </div>
+
+    <div class="seperator" (mousedown)="onMouseDownVertical($event)"></div>
+    <div class="panel" [style.width.px]="rightPanelWidth" #rightPanel>
+        <div class="panel panel-top" #topPanel [style.height.px]="rightPanelTopHeight">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a!
+          </div>
+          <div class="divider" (mousedown)="onMouseDownHorizontal($event)"></div>
+          <div class="panel panel-bottom" #bottomPanel [style.height.px]="rightPanelBottomHeight">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae est similique quae vero delectus, 
+            illum natus optio magnam nobis ut qui consequuntur laudantium nulla totam tempora saepe nostrum ullam 
+            a!
+          </div>
+    </div>  
+</div>
